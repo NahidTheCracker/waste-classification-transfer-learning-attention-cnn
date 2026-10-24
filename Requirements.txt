@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+pillow
+scikit-learn
+requests
+jinja2
+ipykernel
+notebook
