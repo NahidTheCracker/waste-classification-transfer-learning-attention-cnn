@@ -13,11 +13,11 @@ This is an image-classification study on a controlled benchmark. It does not loc
 | Stage | Content | Status |
 |---|---|---|
 | Submission 1 | Dataset information, EDA, related work | Done |
-| Submission 2 | Pretrained models, with and without fine-tuning | Planned |
+| Submission 2 | Pretrained models, with and without fine-tuning | Done |
 | Submission 3 | Custom CNN from scratch | Planned |
 | Submission 4 | Custom CNN with an attention module | Planned |
 
-No model results have been produced yet.
+Submission 2 results (test set, 379 images): the best run is ResNet50 fine-tuned with 93.93% accuracy and macro-F1 0.938; all six runs are compared in the notebook.
 
 ## Dataset
 
@@ -35,8 +35,9 @@ The images are **not** included in this repository. The notebook downloads them 
 | File | Description |
 |---|---|
 | `CSE366_Submission1_Dataset_EDA_RelatedWork.ipynb` | Dataset information, EDA, sample images, findings, split manifest and related work |
-| `split_manifest.csv` | Fixed stratified 70/15/15 split (seed 42) reused by all later experiments |
-| `requirements.txt` | Python packages needed to run the notebook |
+| `CSE366_Submission2_Pretrained_Models.ipynb` | MobileNetV2, ResNet50 and EfficientNetB0 trained frozen and fine-tuned, with curves, classification reports, confusion matrices, timing and a comparison of all six runs |
+| `split_manifest.csv` | Fixed stratified 70/15/15 split (seed 42) reused by all experiments |
+| `requirements.txt` | Python packages needed to run the notebooks |
 
 ## How to run
 
